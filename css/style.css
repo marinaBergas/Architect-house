@@ -1,21 +1,18 @@
+body {
+  margin: 0px;
+  padding: 0px; }
+
 .vntd-social-icons .socisl-icons a {
   color: #535353;
   text-align: center;
   box-sizing: inherit; }
 
 .fa {
-  font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  text-rendering: auto; }
 
 .btn-social-icon {
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%; }
+  border-radius: 50%; }
 
 #footer .footer-bottom {
   background-color: #1e1e1e; }
@@ -97,20 +94,6 @@
   background-size: cover;
   color: rgba(255, 255, 255, 0.34); }
 
-html, body {
-  background: #fff;
-  font-size: 15px;
-  line-height: 1.86em;
-  -webkit-font-smoothing: antialiased;
-  font-family: 'Open Sans',arial;
-  font-weight: 400;
-  color: #686868; }
-
-.container::after {
-  display: table;
-  clear: both;
-  content: ""; }
-
 .nav-link {
   color: #fff; }
 
@@ -120,7 +103,8 @@ html, body {
   height: 657px;
   background-size: cover;
   background-position: center;
-  transition: slide 10s ease-in-out; }
+  transition: slide 10s ease-in-out;
+  overflow-x: hidden; }
 
 .img-2 {
   background-image: url(../img/home-2.jpg);
@@ -150,20 +134,18 @@ html, body {
   left: 30%;
   bottom: auto;
   transform: translate(0, -50%); }
-
-.h1 {
-  margin-bottom: 18px;
-  line-height: 1.2em;
-  font-weight: 400;
-  font-size: 720px; }
-
-.p {
-  margin-top: 10px;
-  line-height: 1.86em;
-  margin-bottom: 20px;
-  color: rgba(255, 255, 255, 0.92);
-  font-family: 'Open Sans',arial;
-  font-weight: 400; }
+  .carousel-caption h1 {
+    margin-bottom: 18px;
+    line-height: 1.2em;
+    font-weight: 400;
+    font-size: 720px; }
+  .carousel-caption p {
+    margin-top: 10px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.92);
+    font-family: 'Open Sans',arial;
+    font-weight: 400; }
 
 .btn-btn1 {
   padding: 15px;
@@ -213,10 +195,9 @@ html, body {
     margin-bottom: 25px; }
   .chair .chair-caption p {
     font-family: 'Open Sans',arial;
-    font-weight: 400;
+    font-weight: 300;
     color: #686868;
-    line-height: 1.86em;
-    font-size: 1.1em; }
+    line-height: 1.5em; }
   .chair .chair-caption ul {
     list-style: none;
     padding: 0;
@@ -255,13 +236,6 @@ html, body {
 .arch-4 li {
   padding: 2px 0 2px 0px; }
 
-.wpb_row {
-  background-image: url(../img/archi16.jpg);
-  background-size: initial;
-  background-attachment: fixed;
-  width: 1349;
-  height: 150%; }
-
 .fixed-image {
   background-image: url(../img/archi16.jpg);
   background-attachment: fixed;
@@ -277,7 +251,7 @@ html, body {
       padding-top: 100px;
       padding-bottom: 100px; }
       .fixed-image .container .container .counter-icon {
-        font-size: 52px;
+        font-size: 38px;
         font-weight: normal;
         line-height: 1em;
         margin-bottom: 20px; }
@@ -288,7 +262,7 @@ html, body {
       color: rgba(255, 255, 255, 0.8); }
     .fixed-image .container .counter-number {
       color: #fff;
-      font-size: 52px;
+      font-size: 48px;
       font-weight: normal;
       line-height: 1em;
       margin-bottom: 20px;
@@ -297,5 +271,5 @@ html, body {
       line-height: 1.86em;
       font-family: 'Open Sans',arial;
       color: rgba(255, 255, 255, 0.8);
-      font-size: 20px;
+      font-size: 15px;
       font-weight: 400; }
